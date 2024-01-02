@@ -1,0 +1,49 @@
+{% extends "./plantilla.html" %}
+    {% block contenido %}
+{% load static %}
+    <div style="background-color: #EBEDEF; padding: 20px 0px 60px 0px">
+      <div style="position: relative; width: 80%; margin: 0 auto;">
+       <img src="{% static "img/po1.png" %}" class="card-img-top mx-auto d-block" alt="..." style="width: 100%;">
+
+       <div style="position: absolute; bottom: 0; left: 0; padding: 210px;">
+           <p style="margin: 0; font-size: 19px; color: white; "><b>Escucha tu entrenamiento como una playlist personalizada en <br>Spotify.</b></p><br>
+           <div class="text-center">
+             <button type="button" class="btn btn-light"><b>Descubre aquí</b></button>
+           </div>
+       </div>
+      </div>
+      <div class="text-center" style=" padding: 60px;">
+        <h1><b>¿Estás listo para escuchar música?</b></h1><br>
+        <p style=" font-size: 18px;">Tenemos las playlist perfectas para ti. Desde Yoga y Estiramiento, para ir con todo al GYM, hacer Skate, Bike o salir a <br>Correr.
+          ¡Dale power a tu entrenamiento con Spotify y Powerade!</p>
+      </div>
+      <div class="row" style="padding: 25px 400px 100px 400px">
+        <div class="col-md-6">
+          <iframe src="https://open.spotify.com/embed/playlist/555pBXSGTVDuO6IUGxSBOw" width="100%" height="420px" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+        </div>
+        <div class="col-md-6">
+          <iframe src="https://open.spotify.com/embed/playlist/3GXVaIXoFAUzFAon0x3VCV" width="100%" height="420px" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <div class="text-center " style=" padding: 60px;">
+          <h1><b>Puedes tomarte también unos minutos para conocer más sobre Powerade.</b></h1>
+        </div>
+        <div class="text-center">
+          <iframe width="940" height="660" style="border-radius: 10px;" src="https://www.youtube.com/embed/6H6AHgkTpyY" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="row" style="padding: 45px 400px 100px 400px;" >
+        <div class="col-md-8 p-4" style="background-color: black">
+          <h1 style="color: white">Síguenos en redes</h1>
+        </div>
+        <div class="col-md-4 p-4" style="background-color: black; padding: 38px">
+             <a href="#" style="color: white"><i class="fa-brands fa-instagram fa-2x">&nbsp&nbsp</i></a>
+            <a href="#" style="color: white"><i class="fa-brands fa-x-twitter fa-2x">&nbsp&nbsp</i></a>
+            <a href="#" style="color: white"><i class="fa-brands fa-youtube fa-2x">&nbsp&nbsp</i></a>
+        </div>
+
+      </div>
+    </div>
+
+
+{% endblock %}

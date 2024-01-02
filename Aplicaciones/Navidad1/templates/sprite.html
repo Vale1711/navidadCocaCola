@@ -1,0 +1,107 @@
+{% extends "./plantilla.html" %}
+    {% block contenido %}
+{% load static %}
+<div style="background-color: #EBEDEF; padding: 20px 0px 60px 0px">
+     <div style="position: relative; width: 70%; margin: 0 auto;">
+      <img src="{% static "img/sp1.png" %}" class="card-img-top mx-auto d-block" alt="..." style="width: 100%;">
+   </div>
+   <div class="text-center" style="padding: 50px">
+     <h1><b>Productos</b></h1>
+   </div>
+   <div class="row" style="padding: 45px 400px 100px 400px">
+     <div class="col-md-6">
+           <img src="{% static "img/sp2.png" %}" class="rounded" alt="...">
+     </div>
+
+     <div class="col-md-6 p-4">
+       <h5 class="card-title" style="font-size:35px; aling: center; "><b>Sprite 300ml RGB</b></h5><br>
+       <p class="card-text" style="font-size:17px; ">Sprite nació en 1966 y ofrece el sabor natural lima-limón más famoso del mundo. este refresco está en alrededor de 190
+         países y su actitud busca inspirar a los jóvenes a ser honestos consigo mismos.</p><br>
+         <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Información Nutricional
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <table class="table">
+          <tbody>
+            <tr>
+              <th scope="row"></th>
+              <td>Tamaño de la porción</td>
+              <td>550 ml</td>
+
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td>Porciones por envase</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td>Energia (Calorias) 0 KJ (0Kcal)</td>
+              <td>&nbsp</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td>&nbsp</td>
+              <td>%Valor Diario*</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td>Grasa Total 0 g</td>
+              <td>0%</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td>Grasa Saturada 0 g</td>
+              <td>0%</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td>Colesterol 0 mg</td>
+              <td>0%</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td>Sodio 100 mg</td>
+              <td>4%</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td>Carbohidratos Totales 0 g</td>
+              <td>0%</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td>Azúcares 0 g</td>
+              <td>0%</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td>Proteína 0 g</td>
+              <td>0%</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>* Los porcentajes de Valor Diario son calculados en base a una dieta de 8380 KJ (2000 kcal).</p>
+      </div>
+    </div>
+  </div>
+</div>
+     </div>
+   </div>
+   <div class="row" style="padding: 45px 400px 100px 400px;" >
+     <div class="col-md-9 p-4" style="background-color: black">
+       <h1 style="color: white">Síguenos en nuestras redes sociales</h1>
+     </div>
+     <div class="col-md-3" style="background-color: black; padding: 38px">
+          <a href="#" style="color: white"><i class="fa-brands fa-instagram fa-2x">&nbsp&nbsp</i></a>
+
+     </div>
+
+   </div>
+</div>
+{% endblock %}

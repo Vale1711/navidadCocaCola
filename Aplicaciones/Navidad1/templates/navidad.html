@@ -1,0 +1,45 @@
+{% extends "./plantilla.html" %}
+    {% block contenido %}
+{% load static %}
+ <div style="background-color: #EBEDEF; padding: 20px 0px 60px 0px">
+   <div style="position: relative; width: 80%; margin: 0 auto;">
+    <img src="{% static "img/navi1.png" %}" class="card-img-top mx-auto d-block" alt="..." style="width: 100%;">
+
+    <div style="position: absolute; bottom: 0; right: 0; padding: 190px;">
+        <p style="margin: 0; font-family: 'Times New Roman', Times, serif; font-size: 35px; color: white; "><b>EL LLAMADO DE SANTA</b></p><br>
+        <p style="margin: 0; font-size: 25px; color: white; "><b>Vive la Navidad de la forma más mágica, <br> con una llamada especial</b></p><br>
+        <div class="text-center">
+          <button type="button" class="btn btn-light"><b>Habla Ahora con Santa</b></button>
+        </div>
+    </div>
+   </div>
+       <div class="row" style="padding: 45px 400px 100px 400px">
+         <div class="col-md-6">
+               <img src="{% static "img/navi3.png" %}" class="rounded" alt="...">
+         </div>
+         <div class="col-md-6 p-4">
+           <h5 class="card-title" style="font-size:35px; aling: center; "><b>Únete a la magia de la Navidad con Coca‑Cola en Ecuador</b></h5><br>
+           <p class="card-text" style="font-size:17px; ">El 15 de diciembre Coca‑Cola entregará 400 canastas navideñas a la "Red Nacional de Recicladores del Ecuador - RENAREC" que serán distribuidas entre sus afiliados, como parte de su evento navideño.</p><br>
+           <img src="{% static "img/navi2.png" %}">
+         </div>
+       </div>
+       <div class="text-center">
+         <h1><b>Despierta el Santa que vive en ti</b></h1>
+       </div>
+       <div class="text-center" style="padding: 20px 400px 20px 400px">
+            <iframe width="940" height="660" style="border-radius: 10px;" src="https://www.youtube.com/embed/FN-apa8TKbQ" frameborder="0" allowfullscreen></iframe>
+       </div>
+       <div class="row" style="padding: 45px 400px 100px 400px;" >
+         <div class="col-md-8 p-4" style="background-color: black">
+           <h1 style="color: white">Síguenos en redes</h1>
+         </div>
+         <div class="col-md-4 p-4" style="background-color: black; padding: 38px">
+              <a href="#" style="color: white"><i class="fa-brands fa-instagram fa-2x">&nbsp&nbsp</i></a>
+             <a href="#" style="color: white"><i class="fa-brands fa-x-twitter fa-2x">&nbsp&nbsp</i></a>
+             <a href="#" style="color: white"><i class="fa-brands fa-youtube fa-2x">&nbsp&nbsp</i></a>
+         </div>
+
+       </div>
+ </div>
+
+{% endblock %}

@@ -1,0 +1,57 @@
+{% extends "./plantilla.html" %}
+    {% block contenido %}
+{% load static %}
+<div style="background-color: #EBEDEF; padding: 20px 0px 60px 0px">
+  <div class="text-center">
+    <h1 class="p-4"><b>Nuestras Marcas</b></h1><br>
+    <p style="font-size: 18px">Seleccione una opción para aplicar el orden de clasificación</p><br>
+  </div>
+  <div class="row row-cols-1 row-cols-md-3 g-4 text-center" style="padding: 0px 560px 0px 560px">
+    <div class="col">
+      <div class="card">
+        <img src="{% static "img/ma1.png" %}" class="card-img-top" alt="...">
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <a class="nav-link {% if navbar == 'fanta' %} active {% endif %}" href="{% url 'fanta' %}"><img src="{% static "img/ma2.png" %}" class="card-img-top" alt="..."></a>
+
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <a class="nav-link {% if navbar == 'sprite' %} active {% endif %}" href="{% url 'sprite' %}">  <img src="{% static "img/ma3.png" %}" class="card-img-top" alt="..."></a>
+
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="{% static "img/ma4.png" %}" class="card-img-top" alt="...">
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="{% static "img/ma5.png" %}" class="card-img-top" alt="...">
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="{% static "img/ma6.png" %}" class="card-img-top" alt="...">
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="{% static "img/ma7.png" %}" class="card-img-top" alt="...">
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="{% static "img/ma8.png" %}" class="card-img-top" alt="...">
+      </div>
+    </div>
+  </div><br>
+</div>
+
+
+
+{% endblock %}

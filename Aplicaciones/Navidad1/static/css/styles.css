@@ -1,0 +1,259 @@
+.power-container {
+  max-width: 1440px;
+  height: 620px;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.83),
+      rgba(67, 67, 67, 0.222)
+    ),
+    url("https://www.coca-cola.com/content/dam/onexp/ec/es/brands/powerade/pausa-es-power/pwd-hero-es.jpg/width1960.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sustentabilidad-container {
+  height: 620px;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.83),
+      rgba(67, 67, 67, 0.222)
+    ),
+    url("https://www.coca-cola.com/content/dam/onexp/sv/es/home-images/sustainability/new-images-sustainability/es_mx_guarana_desktop_1440x810.jpg/width1960.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.social-container {
+  height: 620px;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.83),
+      rgba(67, 67, 67, 0.222)
+    ),
+    url("https://www.coca-cola.com/content/dam/onexp/ec/es/social/es_ar_social_desktop_1440x810.jpg/width1960.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.container-powerade {
+  background-color: #f1f1f1;
+}
+
+.container-button {
+  font: 400 14px/24px Noto-regional, Noto-latin, TCCC-UnityText;
+  letter-spacing: 0;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  text-align: start;
+  box-sizing: border-box;
+  width: 50%;
+  margin-bottom: 24px;
+}
+
+.container-button a {
+  text-align: start;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  letter-spacing: 0;
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  border-radius: 48px;
+  color: #000;
+  display: flex;
+  font-family: Noto-regional, Noto-latin, TCCC-UnityText !important;
+  font-size: 14px;
+  font-weight: 600;
+  height: 40px;
+  justify-content: center;
+  line-height: 14px;
+  padding: 0;
+  text-decoration: none;
+  width: 280px;
+  margin: 0;
+}
+
+.container-texto-boton {
+  margin-left: 14rem;
+  color: #fff;
+}
+
+.container-texto-boton-sustentabilidad {
+  margin-left: 5rem;
+  color: #fff;
+}
+
+.container-texto-boton-social {
+  margin-left: 5rem;
+  color: #fff;
+}
+
+.container-power-music {
+  max-width: 1120px;
+}
+
+.container-text-music {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container-text-music > p {
+  color: #000;
+}
+
+.subtitulo {
+  color: #000;
+  font-size: 32px;
+  margin-top: 6rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.container-power-redes {
+  background-color: #000;
+  border-radius: 0.5rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  color: #fff;
+  letter-spacing: 0;
+  font-size: 16px;
+  line-height: 26px;
+  direction: ltr;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 48px 96px;
+}
+
+.borde {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.titulo {
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.subsubtitulo {
+  font-weight: 600;
+  margin-top: 2rem;
+  font-size: 28px;
+  color: #000;
+}
+
+.lista-prensa {
+  list-style-type: none;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+.lista-prensa li a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.lista-prensa hr {
+  margin-top: 1.5rem;
+}
+
+.lista-privacidad li {
+  margin-bottom: 2rem;
+}
+
+.lista-politicas {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.container-politicas {
+  margin-bottom: 4rem;
+}
+
+.container-politicas p {
+  margin-bottom: 1rem;
+}
+
+.container-politicas p a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.swiper-pagination {
+  color: #000;
+  letter-spacing: 0;
+  font-size: 16px;
+  line-height: 26px;
+  list-style: none;
+  box-sizing: border-box;
+  text-align: center;
+  transition: opacity 0.3s;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  position: static;
+  transform: none;
+  z-index: auto;
+  margin-top: 32px;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+}
+
+.swiper {
+  list-style: none;
+  box-sizing: border-box;
+  overflow: visible;
+  border-radius: 50%;
+  appearance: none;
+  box-shadow: none;
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #9b9b9b;
+  height: 18px;
+  opacity: 1;
+  width: 18px;
+  align-items: center;
+  border-color: #000;
+  display: flex;
+  justify-content: center;
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 4px);
+}
+
+.swiper-active::after {
+  background-color: #000;
+  border-radius: 10px;
+  content: "";
+  height: 10px;
+  width: 10px;
+}

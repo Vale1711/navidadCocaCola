@@ -1,0 +1,100 @@
+{% extends "./plantilla.html" %}
+    {% block contenido %}
+    {% load static %}
+
+    <div style="background-color: #EBEDEF; padding: 20px 0px 60px 0px">
+      <div class="text-center p-4">
+        <h1><b>Historia</b></h1>
+        <p style="font-size: 30px; padding: 25px;"><b>Desde su nacimiento en una fuente de refrescos en el centro de <br>Atlanta, Georgia, en 1886,
+          Coca‑Cola ha sido un catalizador de la <br>interacción social y ha inspirado la innovación.</b></p>
+      </div>
+      <div class="row" style="padding: 45px 400px 100px 400px">
+
+        <div class="col-md-6" style="background-color: white; padding: 80px;">
+          <h5 class="card-title" style="font-size:35px; aling: center;"><b>El origen de la Coca-Cola</b></h5><br>
+          <p class="card-text" style="font-size:17px; ">El 8 de mayo de 1886, el Dr. John Pemberton llevó su jarabe perfeccionado a la farmacia Jacobs en el centro de Atlanta, donde se sirvió el primer vaso de Coca-Cola. Coca-Cola, que sirvió alrededor
+de nueve bebidas por día durante su primer año, fue una bebida nueva e interesante al principio. Vea aquí la historia de cómo empezó todo.</p><br>
+            <button type="button" class="btn btn-outline-dark text-center" style="border-radius: 10px;"><b>Ver el nacimiento de Coca-Cola</b></button>
+        </div>
+        <div class="col-md-6">
+              <img src="{% static "img/h1.png" %}" class="rounded" alt="...">
+        </div>
+      </div>
+      <div class="row" style="padding: 45px 400px 100px 400px">
+        <div class="col-md-6">
+              <img src="{% static "img/h2.png" %}" class="rounded" alt="...">
+        </div>
+        <div class="col-md-6" style="background-color: white; padding: 50px;">
+          <h5 class="card-title" style="font-size:35px; aling: center;"><b>La historia de la sostenibilidad de Coca‑Cola</b></h5><br>
+          <p class="card-text" style="font-size:17px; ">La sostenibilidad no es algo nuevo en The Coca‑Cola Company. Desde 1917, nuestros esfuerzos han cubierto una amplia gama de temas que incluyen: sostenibilidad del agua, empoderamiento de las mujeres,
+            bienestar comunitario, embalajes sostenibles, protección del clima, derechos humanos y laborales, y agricultura sostenible.</p><br>
+            <button type="button" class="btn btn-outline-dark text-center" style="border-radius: 10px;"><b>La historia de la sostenibilidad de Coca‑Cola</b></button>
+        </div>
+
+      </div>
+      <div class="row" style="padding: 45px 400px 100px 400px">
+
+        <div class="col-md-6" style="background-color: white; padding: 50px;">
+          <h5 class="card-title" style="font-size:35px; aling: center;"><b>Cómo se hizo 'Hilltop'</b></h5><br>
+          <p class="card-text" style="font-size:17px; ">Cómo se hizo 'Hilltop'
+Lea la historia sobre uno de los comerciales más famosos que veía a Coca-Cola no como fue diseñada originalmente (un refresco líquido) sino como un poquito de algo en común entre todas las personas, una fórmula universalmente apreciada que les ayudaría a hacerles compañía durante un tiempo.
+pocos minutos. Conozca los antecedentes de "Me gustaría comprarle una Coca-Cola al mundo".</p><br>
+            <button type="button" class="btn btn-outline-dark text-center" style="border-radius: 10px;"><b>Ver "Me gustaria comprarle una Coca-Cola al mundo"</b></button>
+        </div>
+        <div class="col-md-6">
+              <img src="{% static "img/h3.png" %}" class="rounded" alt="...">
+        </div>
+      </div>
+      <div class="row" style="padding: 45px 400px 100px 400px">
+        <div class="col-md-6">
+              <img src="{% static "img/h4.png" %}" class="rounded" alt="...">
+        </div>
+        <div class="col-md-6" style="background-color: white; padding: 80px;">
+          <h5 class="card-title" style="font-size:35px; aling: center;"><b>La primera botella de Coca‑Cola</b></h5><br>
+          <p class="card-text" style="font-size:17px; ">La botella contorneada ha sido celebrada en el arte, la música y la publicidad. Lea la historia de la colaboración que comenzó en 1915
+             y se convirtió en una de las formas más famosas del mundo.</p><br>
+            <button type="button" class="btn btn-outline-dark text-center" style="border-radius: 10px;"><b>Explora la historia de la botella de Coca-Cola</b></button>
+        </div>
+
+      </div>
+      <div class="row" style="padding: 45px 400px 100px 400px">
+
+        <div class="col-md-6" style="background-color: white; padding: 80px;">
+          <h5 class="card-title" style="font-size:35px; aling: center;"><b>125 años de historia de Coca‑Cola</b></h5><br>
+          <p class="card-text" style="font-size:17px; ">La notable historia sobre la evolución de una marca icónica y la empresa que lleva su nombre. Lea sobre la publicidad, los productos y los principales hitos
+ de Coca‑Cola a lo largo de los primeros 125 años de su singular historia.</p><br>
+            <button type="button" class="btn btn-outline-dark text-center" style="border-radius: 10px;"><b>Ver "Explora la historia de Coca-Cola"</b></button>
+        </div>
+        <div class="col-md-6">
+              <img src="{% static "img/h5.png" %}" class="rounded" alt="...">
+        </div>
+      </div>
+      <div class="text-center">
+        <h1 class="p-4"><b>contenido relacionado</b></h1><br>
+      </div>
+
+      <div class="card-group" style="padding: 45px 400px 100px 400px;">
+  <div class="card">
+    <img src="{% static "img/h6.png" %}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text" style="font-size: 20px; padding: 30px;">Coca-Cola colabora con socios tecnológicos para crear un prototipo de botella hecha 100% de fuentes vegetales.</p>
+      <a href="#" style="color: black; text-decoration: none; font-size: 15px"><b>Leer más</b>&nbsp<i class="fa-solid fa-arrow-right"></i></a><br>
+    </div>
+  </div>
+  <div class="card">
+    <img src="{% static "img/h7.png" %}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text" style="font-size: 20px; padding: 30px;">Coca-Cola lanza la plataforma de marca 'Real Magic', que incluye una identidad visual renovada y una campaña global.</p>
+      <a href="#" style="color: black; text-decoration: none; font-size: 15px"><b>Leer más</b>&nbsp<i class="fa-solid fa-arrow-right"></i></a><br>
+    </div>
+  </div>
+  <div class="card">
+    <img src="{% static "img/h8.png" %}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text" style="font-size: 20px; padding: 30px;">Iteración, para siempre: cómo el Proyecto Última Milla apoya la distribución de la vacuna COVID-19 en África y más allá.</p>
+      <a href="#" style="color: black; text-decoration: none; font-size: 15px"><b>Leer más</b>&nbsp<i class="fa-solid fa-arrow-right"></i></a><br>
+    </div>
+  </div>
+</div>
+    </div>
+{% endblock %}
